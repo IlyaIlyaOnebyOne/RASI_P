@@ -7,7 +7,7 @@ ms_project = win32com.client.Dispatch("MSProject.Application")
 ms_project.Visible = False  # Не отображать GUI
 
 # Открытие файла .mpp
-file_path = r"Project1.mpp"  # Путь к файлу
+file_path = r"Project_MS.mpp"  # Путь к файлу
 ms_project.FileOpen(file_path)
 
 # Извлечение данных
